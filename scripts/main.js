@@ -1,3 +1,5 @@
+
+window.onload = function(){
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -8,3 +10,4 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/firefox-icon.png');
     }
 }
+};
