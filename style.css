@@ -1,0 +1,39 @@
+#bio{
+	font-family: fantasy
+	font-size: 12px;
+	}
+.reference{
+	font-size:10px;
+}
+
+.banner{
+	width: 100%;
+	display: block;
+
+
+}
+.banner > .banner-image{
+	width:100%;
+	display:block;
+
+
+}
+.nav{
+	background-color:#ffffff;
+	color:#000000;
+	list-style:none;
+	text-align:center;
+	padding: 20px  0px 0px 0px;
+}
+.nav > li{
+	display:inline-block;
+	padding: 0 25px 0 25px;
+}
+.nav > li > a{
+	text-decoration:none;
+	color:#000000;
+}
+
+.nav > li > a:hover{
+	color:#c1c1c1;
+}
