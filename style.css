@@ -2,6 +2,10 @@
 	font-family: fantasy
 	font-size: 12px;
 	}
+#headshot{
+	border-radius: 8px;
+
+}
 .reference{
 	font-size:10px;
 }
@@ -14,7 +18,9 @@
 }
 .banner > .banner-image{
 	width:100%;
+	height:auto;	
 	display:block;
+	padding: 0 0 0 0;
 
 
 }
