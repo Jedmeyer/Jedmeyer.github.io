@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title> Jason Dickmeyer - Your Average Scientist </title>
+	<style type="text/css" style = "display: none !important;">
+	<style>
+		* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(images/testbanner.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+<ul class="nav">
+				<li><a href="a">About Me </a></li>
+				<li>|</li>
+				<li><a href="a">My Work </a></li>
+				<li>|</li>
+				<li><a href="a">Contact Me </a></li>
+				<li>|</li>
+				<li><a href="a">Blog </a></li>
+
+
+
+
+			</ul>
+	
+	
+</body>
+
+</html>
