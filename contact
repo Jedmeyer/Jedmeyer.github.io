@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title> Jason Dickmeyer - Where can you find me? </title>
+	<style type="text/css" style = "display: none !important;">
+	<style>
+		* { margin: 0; padding: 0; }
+		
+		html { 
+			background: url(images/testbanner.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		
+		
+		li{
+			display: inline;
+		}
+
+	</style>
+	<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+
+
+
+<ul class="nav">
+				<li><a href="a">About Me </a></li>
+				<li class="sep">|</li>
+				<li><a href="contact">My Work </a></li>
+				<li  class="sep">|</li>
+				<li><a href="a">Contact Me </a></li>
+				<li  class="sep">|</li>
+				<li><a href="a">Blog </a></li>
+
+
+
+
+			</ul>
+	<!--	<ul id = "welcome"> 
+				<li> WELCOME</li>
+	</ul>
+	-->
+
+
+	<div id="info-page">
+		<p> I can be reached at <a href="jedmeyer@stolaf.edu">jedmeyer@stolaf.edu </a><br> I usually respond in a couple days to email! </p>
+	</div>
+
+
+	
+</body>
+
+</html>
