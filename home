@@ -16,6 +16,12 @@
 			-o-background-size: cover;
 			background-size: cover;
 		}
+		
+		
+		li{
+			display: inline;
+		}
+
 	</style>
 	<link rel="stylesheet" href="style.css">
 </head>
