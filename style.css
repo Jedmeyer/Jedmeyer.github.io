@@ -1,5 +1,4 @@
 
-*{margin:0;padding:0;}
 
 #bio{
 	font-family: fantasy
@@ -13,39 +12,33 @@
 	font-size:10px;
 }
 
-html{
 
-	overflow-y: hidden;
-	overflow-x: hidden;
-	background-image: url(images/testbanner.jpg);
-	background-repeat:no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size:contain;
 
-}
 .nav{
+	width: 100%;
+	display:inline;
+	padding: 20px;
+	-moz-box-shadow: 0 0 20px black;
+	-webkit-box-shadow: 0 0 20px black;
+	box-shadow: 0 0 20px black;
+	margin: 0;
 	position: fixed;
 	top: 0;
-	left: 42%;
-	
-
+	left: 0%;
+	background-color: black;
 	list-style:none;
 	text-align:center;
-	padding: 20px  0px 0px 0px;
+	padding: 0px  0px 0px 0px;
 }
-.nav > li{
-	display:inline-block;
-	padding: 0 25px 0 25px;
-}
-.nav > li > a{
-	font-size:20pt;
 
+.nav > li > a{
+	font-size:18pt;
+	white-space: nowrap;
 	text-decoration:none;
 	color:#44413e;
-}
+	
 
+}
 .nav > li > a:hover{
 	color:#c1c1c1;
 }
