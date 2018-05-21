@@ -1,3 +1,6 @@
+
+*{margin:0;padding:0;}
+
 #bio{
 	font-family: fantasy
 	font-size: 12px;
@@ -10,23 +13,24 @@
 	font-size:10px;
 }
 
-.banner{
-	width: 100%;
-	display: block;
+html{
 
-
-}
-.banner > .banner-image{
-	width:100%;
-	height:auto;	
-	display:block;
-	padding: 0 0 0 0;
-
+	overflow-y: hidden;
+	overflow-x: hidden;
+	background-image: url(images/testbanner.jpg);
+	background-repeat:no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size:contain;
 
 }
 .nav{
-	background-color:#ffffff;
-	color:#000000;
+	position: fixed;
+	top: 0;
+	left: 42%;
+	
+
 	list-style:none;
 	text-align:center;
 	padding: 20px  0px 0px 0px;
@@ -36,8 +40,10 @@
 	padding: 0 25px 0 25px;
 }
 .nav > li > a{
+	font-size:20pt;
+
 	text-decoration:none;
-	color:#000000;
+	color:#44413e;
 }
 
 .nav > li > a:hover{
